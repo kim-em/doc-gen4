@@ -1,7 +1,9 @@
-{"version": "1.3.0",
+{
+ "version": "1.3.0",
  "packagesDir": ".lake/packages",
- "packages":
- [{"url": "https://github.com/leanprover/leansqlite",
+ "packages": [
+  {
+   "url": "https://github.com/leanprover/leansqlite",
    "type": "git",
    "subDir": null,
    "scope": "",
@@ -10,8 +12,10 @@
    "manifestFile": "lake-manifest.json",
    "inputRev": "main",
    "inherited": false,
-   "configFile": "lakefile.lean"},
-  {"url": "https://github.com/leanprover/lean4-cli",
+   "configFile": "lakefile.lean"
+  },
+  {
+   "url": "https://github.com/leanprover/lean4-cli",
    "type": "git",
    "subDir": null,
    "scope": "",
@@ -20,18 +24,22 @@
    "manifestFile": "lake-manifest.json",
    "inputRev": "main",
    "inherited": false,
-   "configFile": "lakefile.toml"},
-  {"url": "https://github.com/fgdorais/lean4-unicode-basic",
+   "configFile": "lakefile.toml"
+  },
+  {
+   "url": "https://github.com/kim-em/lean4-unicode-basic",
    "type": "git",
    "subDir": null,
    "scope": "",
-   "rev": "a24bcde05a7971144ba0c0b5b1d60c3a0f0bc4af",
+   "rev": "e933d1183251b96ea71135ac00b192de84a8d8be",
    "name": "UnicodeBasic",
    "manifestFile": "lake-manifest.json",
-   "inputRev": "main",
+   "inputRev": "e933d1183251b96ea71135ac00b192de84a8d8be",
    "inherited": false,
-   "configFile": "lakefile.lean"},
-  {"url": "https://github.com/dupuisf/BibtexQuery",
+   "configFile": "lakefile.lean"
+  },
+  {
+   "url": "https://github.com/dupuisf/BibtexQuery",
    "type": "git",
    "subDir": null,
    "scope": "",
@@ -40,8 +48,10 @@
    "manifestFile": "lake-manifest.json",
    "inputRev": "master",
    "inherited": false,
-   "configFile": "lakefile.toml"},
-  {"url": "https://github.com/acmepjz/md4lean",
+   "configFile": "lakefile.toml"
+  },
+  {
+   "url": "https://github.com/acmepjz/md4lean",
    "type": "git",
    "subDir": null,
    "scope": "",
@@ -50,7 +60,10 @@
    "manifestFile": "lake-manifest.json",
    "inputRev": "main",
    "inherited": false,
-   "configFile": "lakefile.lean"}],
- "name": "«doc-gen4»",
+   "configFile": "lakefile.lean"
+  }
+ ],
+ "name": "\u00abdoc-gen4\u00bb",
  "lakeDir": ".lake",
- "fixedToolchain": false}
+ "fixedToolchain": false
+}
